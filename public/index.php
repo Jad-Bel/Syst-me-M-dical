@@ -1,8 +1,8 @@
 <?php 
 
-include "/laragon/www/systemeMedical/public/bin/server/connect.php";
-require "/laragon/www/systemeMedical/public/bin/server/session_check.php";
 session_start(); 
+include "/laragon/www/systemeMedical/public/bin/server/connect.php";
+include "/laragon/www/systemeMedical/public/bin/server/session_check.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">

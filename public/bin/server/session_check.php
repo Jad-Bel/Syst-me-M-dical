@@ -1,10 +1,6 @@
 <?php 
-    session_start();
-
-    session_unset();
-
-    session_destroy();
-
-    header ("location: ../public/authentification.php");
-    exit;
+    if (!isset($_SESSION['firstName']) || !isset($_SESSION['lastName'])) {
+        header("location: ../public/authentification.php");
+        exit;
+    }
 ?>

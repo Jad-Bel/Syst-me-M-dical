@@ -13,6 +13,19 @@ include "/laragon/www/systemeMedical/public/bin/server/session_check.php";
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
+<header class="bg-blue-600 w-full h-32 z-50 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Centre Médical</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#rendez-vous" class="hover:text-blue-200">Rendez-vous</a></li>
+                    <li><a href="#informations" class="hover:text-blue-200">Informations Personnelles</a></li>
+                    <li><a href="../public/bin/authentification/logout.php" class="hover:text-blue-200">log out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <section id="rendez-vous" class="mb-8">
         <h2 class="text-2xl font-bold mb-4">Gestion des Rendez-vous</h2>
         <div class="bg-white p-6 rounded-lg shadow-md">

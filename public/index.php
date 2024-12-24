@@ -1,4 +1,9 @@
-<?php include "/laragon/www/systemeMedical"; ?>
+<?php 
+
+include "/laragon/www/systemeMedical/public/bin/server/connect.php";
+require "/laragon/www/systemeMedical/public/bin/server/session_check.php";
+session_start(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

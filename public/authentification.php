@@ -9,7 +9,7 @@
 <body>
     <div class="bg-white p-8 rounded-lg shadow-md w-96">
         <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Login</h2>
-        <form>
+        <form action="../bin/authentification/login.php" method="POST">
             <div class="mb-4">
                 <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
                 <input type="text" id="firstName" name="firstName" required

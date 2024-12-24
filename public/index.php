@@ -14,6 +14,11 @@
             <h3 class="text-xl font-semibold mb-4">Prendre un rendez-vous</h3>
             <form class="space-y-4" action="" method="POST">
                 <div>
+                    <label for="nom_pat" class="block mb-1">Nom du patient</label>
+                    <input type="text" id="nom_pat" name="nom_pat" class="w-full p-2 border rounded" required>
+                </div>    
+
+                <div>
                     <label for="date_rdv" class="block mb-1">Date du rendez-vous</label>
                     <input type="date" id="date_rdv" name="date_rdv" class="w-full p-2 border rounded" required>
                 </div>
